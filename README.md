@@ -6,7 +6,7 @@ A RESTful web service using Java Spring Framework
 - [Introduction](#introduction)
 - [Features](#features)
 - [Prerequisites](#prerequisites)
-- [Getting Started and Installation](#getting-started and installation)
+- [Getting Started & Installation](#getting-started)
 - [Usage](#usage)
 - [Tests](#tests)
 - [Contributing](#contributing)
