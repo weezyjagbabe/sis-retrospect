@@ -13,7 +13,6 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @SpringBootApplication
 @EnableJpaRepositories("com.sis.scrum.retrospect.repositories")
 @EntityScan("com.sis.scrum.retrospect.models")
-//@EnableJpaAuditing
 public class RetrospectiveApplication {
 
     /**

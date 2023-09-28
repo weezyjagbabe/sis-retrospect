@@ -43,7 +43,7 @@ public class FeedbackController extends BaseController {
      * @return the response entity
      */
     @Operation(summary = "Create a feedback for a retrospective.")
-    @PostMapping(value = "/retrospective/{retrospectiveId}/feedback",
+    @PostMapping(value = "/retrospective/{retrospectiveId}/feedback-item",
             consumes = {MediaType.APPLICATION_JSON_VALUE,MediaType.APPLICATION_XML_VALUE},
             produces = {MediaType.APPLICATION_JSON_VALUE,MediaType.APPLICATION_XML_VALUE})
     ResponseEntity<FeedbackItem> create(@PathVariable final Long retrospectiveId,
@@ -65,7 +65,7 @@ public class FeedbackController extends BaseController {
      * @return the response entity
      */
     @Operation(summary = "Update a feedback.")
-    @PutMapping(value = "/feedback/{feedbackId}",
+    @PutMapping(value = "/feedback-item/{feedbackId}",
             consumes = {MediaType.APPLICATION_JSON_VALUE,MediaType.APPLICATION_XML_VALUE},
             produces = {MediaType.APPLICATION_JSON_VALUE,MediaType.APPLICATION_XML_VALUE})
     ResponseEntity<FeedbackItem> update(@PathVariable final Long feedbackId,
