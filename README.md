@@ -18,7 +18,7 @@ A RESTful web service that can be accessed via HTTP. The service allows users to
 
 ## Features
 
-List the key features of your Spring Boot application:
+List of key features of the Spring Boot application:
 
 - Api to create a retrospective
 - Api to get all retrospectives
