@@ -42,7 +42,7 @@ cd sis-retrospect folder
 # Build the project
 mvn clean install
 ```
-This will build your project and package it into a JAR and place the resulting artifact in the local Maven repository (~/.m2/repository/com/sis/scrum/retrospect/0.0.1-SNAPSHOT/retrospect-0.0.1-SNAPSHOT.jar).
+This will build the project and package it into a JAR and place the resulting artifact in the local Maven repository (~/.m2/repository/com/sis/scrum/retrospect/0.0.1-SNAPSHOT/retrospect-0.0.1-SNAPSHOT.jar).
 Navigate to the folder containing the jar file and run
 
 ```bash
